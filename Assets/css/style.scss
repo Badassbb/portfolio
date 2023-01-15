@@ -1,6 +1,7 @@
 /*************************GENERAL*************************/
 body {
     font-family: "Brygada 1918", "Crete Round", serif, "Italianno", "cursive", "Vesper Libre";
+    background-color: black;
 }
 
 h1,
@@ -27,6 +28,12 @@ section .heading {
 }
 
 
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+}
+
 /*************************ABOUT*************************/
 #about {
 
@@ -43,7 +50,7 @@ section .heading {
     text-transform: uppercase;
 }
 
-#about .heading h3 {
+.heading h3 {
     color: white;
     text-transform: uppercase;
 }
@@ -64,3 +71,34 @@ section .heading {
     background-color: white;
     color: lightslategrey;
 }
+
+/*************************SKILLS*************************/
+#skills {
+    background-color: black;
+}
+
+#skills .heading h2 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+#skills .progress {
+    height: 45px;
+    margin: 30px 20px;
+    background-color: white;
+}
+
+#skills .progress:last-child {
+    margin-bottom: 0px;
+}
+
+
+#skills .progress-bar {
+    background-color: rgb(0, 0, 0);
+}
+
+#skills .progress-bar h5 {
+    text-shadow: 1px 1px 1px black;
+}
+
+/*************************Experience*************************/
